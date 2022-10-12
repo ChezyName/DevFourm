@@ -1,3 +1,0 @@
-// Budget Enviormental Variables...
-export const GIT_USERNAME = "";
-export const GIT_TOKEN = "";

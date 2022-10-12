@@ -1,8 +1,21 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  margin: none;
+  padding: none;
+}
+
+* {
+  overflow: hidden;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.App{
+  width: 100vw;
+  height: 100vh;
+  margin: none;
+  padding: none;
 }
 
 .logo {
@@ -38,4 +51,28 @@
 
 .read-the-docs {
   color: #888;
+}
+
+#SEND{
+  width: 15% !important;
+  height: 8% !important;
+  position: relative;
+  top: 85%;
+  margin-left: 1%;
+}
+
+#MSG{
+  width: 80% !important;
+  height: 8% !important;
+  position: relative;
+  top: 85%;
+  border-radius: 10px;
+}
+
+#TXT{
+  width: 100%;
+  height: 85%;
+  position: absolute;
+  overflow-y: auto;
+  white-space:pre-wrap;
 }

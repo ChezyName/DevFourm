@@ -10,10 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "gitrows": "^0.9.0",
+    "firebase": "^9.12.0",
+    "isomorphic-fetch": "^3.0.0",
+    "octokit": "^2.0.7",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "vite-plugin-require": "^1.0.5"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.17",
