@@ -33,4 +33,5 @@ First, run `npm run build` for all your files to be built into the `dist/` folde
 Finally, in order to see your pages. go into the settings tab of your repository, On the left panel, click the pages button and under **Build and deployment** choose your source as your newly made branch and that's it.
 > In order for GitHub & Vite to both build in sync, inside `vite.config.ts` change `base:  '/DevFourm/',` to your repo name, for example if your repo is named JACK it would be `base:  '/JACK/',`
 
+#### Image Reference On What It Looks Like
 ![Deploying Into GitHub Pages](./GHPAGES.png)
